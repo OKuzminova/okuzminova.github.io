@@ -1,0 +1,227 @@
+/* montserrat-regular - cyrillic-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('fonts/montserrat-v14-cyrillic-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/montserrat-v14-cyrillic-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-500 - cyrillic-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'),
+       url('fonts/montserrat-v14-cyrillic-ext_latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/montserrat-v14-cyrillic-ext_latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-600 - cyrillic-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+       url('fonts/montserrat-v14-cyrillic-ext_latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/montserrat-v14-cyrillic-ext_latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - cyrillic-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('fonts/montserrat-v14-cyrillic-ext_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/montserrat-v14-cyrillic-ext_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-900 - cyrillic-ext_latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Montserrat Black'), local('Montserrat-Black'),
+       url('fonts/montserrat-v14-cyrillic-ext_latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/montserrat-v14-cyrillic-ext_latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #999999;
+}
+
+/* Стили для header */
+.menu{
+  max-width: 1113px;
+  margin: 0 auto;
+}
+.header{
+  min-height: 100vh;
+  background: url(img/bg-header.jpg) no-repeat center;
+  background-size: cover;
+}
+.header-nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-top: 50px;
+  /*border-bottom: 1px solid #A1A1A1;*/
+}
+.header-nav-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-nav-item{
+  margin-right: 40px;
+  list-style-type: none;
+  padding-bottom: 50px;
+}
+.header-nav-item:last-child{
+  margin-right: 0;
+}
+.header-nav-item:hover{
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 48px;
+}
+.header-link{
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+hr{
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: #A1A1A1;;
+  color: #A1A1A1;
+}
+
+.title{
+  max-width: 829px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 120px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.title h1{
+  padding: 2px 0 50px;
+  line-height: 64px;
+  font-size: 48px;
+}
+.btn-project{
+  width: 200px;
+  height: 45px;
+  padding: 13px 36px 15px;
+  margin: auto;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.btn-project:hover{
+  background-color: #0052F9;
+}
+
+
+
+/* Стили для first-block */
+.first{
+  max-width: 1113px;
+  margin: 0 auto;
+}
+.first-block{
+  max-width: 740px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.first-block h2{
+  padding-top: 110px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #323232;
+}
+.first-block-title{
+  padding-top: 50px;
+  line-height: 25px;
+  text-align: center;
+}
+.first-block-cards{
+  display: grid;
+  grid-template-columns: 5% 25% 5% 25% 5% 25%;
+  justify-content: flex-start;
+  padding: 80px 0 50px;
+  justify-content: space-between;
+}
+/*.fist-cards-1{  
+  grid-column-gap: 18px;
+}*/
+.fist-cards-1{  
+  width: 60px;
+  padding-right: 7px;
+}
+.fist-cards-2{  
+  width: 222px;
+}
+.first-cards-title{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  text-align: left;
+}
+.first-cards-text{
+  padding-top: 12px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+}
+.btn-first-block{
+  width: 200px;
+  height: 45px;
+  padding: 13px 36px 15px;
+  margin: auto;
+  margin-bottom: 105px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  text-align: center;
+}
+.btn-first-block a{
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.btn-first-block:hover{
+  background-color: #0052F9;
+}
+
+
+/* Стили для second-block */
+.second{
+  background-color: #F6F6F8;
+}
+.second-block{
+  max-width: 1113px;
+  margin: 0 auto;
+}
