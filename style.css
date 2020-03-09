@@ -61,6 +61,7 @@ body{
   color: #999999;
 }
 
+
 /* Стили для header */
 .menu{
   max-width: 1113px;
@@ -77,7 +78,6 @@ body{
   align-items: flex-end;
   justify-content: flex-end;
   padding-top: 50px;
-  /*border-bottom: 1px solid #A1A1A1;*/
 }
 .header-nav-list{
   display: flex;
@@ -172,9 +172,6 @@ hr{
   padding: 80px 0 50px;
   justify-content: space-between;
 }
-/*.fist-cards-1{  
-  grid-column-gap: 18px;
-}*/
 .fist-cards-1{  
   width: 60px;
   padding-right: 7px;
@@ -235,7 +232,6 @@ hr{
 }
 .second-block-txt-1{
   max-width: 510px;
-
 }
 .second-block-txt-1 h2{
   padding: 52px 110px 40px 0;
@@ -256,6 +252,17 @@ hr{
   font-weight: 500;
 }
 .link:hover{
+  color: #0052F9;
+  text-decoration: none;
+}
+.link2{
+  padding-top: 30px;
+  color: #999999;
+  line-height: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.link2:hover{
   color: #0052F9;
   text-decoration: none;
 }
@@ -291,6 +298,7 @@ max-width: 500px;
 .second-block-icon1 p:hover{
   text-decoration: underline;
 }
+
 
 /* Стили для third-block */
 .third{
@@ -351,6 +359,7 @@ max-width: 500px;
   border-top: 1px solid #E0E0E0;
 }
 
+
 /* Стили для fourth-block */
 .fourth{
   background-color: #F6F6F8;
@@ -410,10 +419,10 @@ max-width: 500px;
   background-color: #0052F9;
 }
 
+
 /* Стили для fifth-5-block */
 .fifth-5{
   height: 570px;
-
   background: url(img/bg-2.jpg) no-repeat center;
   background-size: cover;
 }
@@ -520,6 +529,7 @@ border: 1px solid #E0E0E0;
 .button:hover{
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 1);
 }
+
 
 /* Стили для footer */
 footer{
